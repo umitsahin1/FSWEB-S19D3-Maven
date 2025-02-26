@@ -5,6 +5,7 @@ import com.workintech.s19d2.dto.RegistrationMember;
 import com.workintech.s19d2.entity.Account;
 import com.workintech.s19d2.entity.Member;
 import com.workintech.s19d2.entity.Role;
+
 import com.workintech.s19d2.repository.AccountRepository;
 import com.workintech.s19d2.repository.MemberRepository;
 import com.workintech.s19d2.repository.RoleRepository;
@@ -15,9 +16,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.*;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
